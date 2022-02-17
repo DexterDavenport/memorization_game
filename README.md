@@ -1,0 +1,2 @@
+# memorization_game
+An android application that will display a seven digit number for the user to memorize. The number displays for ten second, then the screen is empty for ten second the ask for the users input. If the user input matches the it will say CORRECT, if its wrong then it will say WRONG and after five second it will display the correct number. If you press the restart but it will restart the program.
