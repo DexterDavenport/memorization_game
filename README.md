@@ -20,4 +20,4 @@ An android application that will display a seven digit number for the user to me
 * Keep score
 * Hold daily memorization challenge (promped in the morning to memorize till that night)
 * Add multiple pages
-*
+
