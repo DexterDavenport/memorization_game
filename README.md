@@ -6,9 +6,9 @@ An android application that will display a seven digit number for the user to me
 
 # Development Environment
 
-[Android Studio](https://developer.android.com/studio/?gclid=Cj0KCQiApL2QBhC8ARIsAGMm-KGPjjXUaxD9EfL7YV4mDYpGa7O1lJdL4PLQtPTZ7wpbFWZ8lLuPGrkaAkXkEALw_wcB&gclsrc=aw.ds)
-Kotlin
-Extensible Markup Language (XML)
+* [Android Studio](https://developer.android.com/studio/?gclid=Cj0KCQiApL2QBhC8ARIsAGMm-KGPjjXUaxD9EfL7YV4mDYpGa7O1lJdL4PLQtPTZ7wpbFWZ8lLuPGrkaAkXkEALw_wcB&gclsrc=aw.ds)
+* Kotlin
+* Extensible Markup Language (XML)
 
 # Useful Websites
 
