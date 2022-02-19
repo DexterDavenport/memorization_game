@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--set the basic parameters for the app-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,6 +8,7 @@
     android:background="#EED7C5"
     tools:context=".MainActivity">
 
+<!--    set the parameters for the random number-->
     <TextView
         android:id="@+id/disappearing_number"
         android:layout_width="wrap_content"
@@ -22,6 +24,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<!--    set the parameters for the users guess -->
     <EditText
         android:id="@+id/user_guess"
         android:layout_width="wrap_content"
@@ -37,6 +40,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<!--    set the parameters for the check button-->
     <Button
         android:id="@+id/check_button"
         android:layout_width="wrap_content"
@@ -50,6 +54,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<!--    set the parameters for the check answer-->
     <TextView
         android:id="@+id/check_answer"
         android:layout_width="wrap_content"
@@ -63,6 +68,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<!--    set the parameters for the answer solution that is displays after the user gets it wrong-->
     <TextView
         android:id="@+id/answer_solution2"
         android:layout_width="wrap_content"
@@ -75,6 +81,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/check_answer" />
 
+<!--    set the parameters for the restart button-->
     <Button
         android:id="@+id/restart_button"
         android:layout_width="wrap_content"
@@ -86,5 +93,32 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/check_answer" />
+
+<!--    set the parameters for the remember me text-->
+    <TextView
+        android:id="@+id/rememberMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Remember Me"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--    set the parameters for the dont forget text-->
+    <TextView
+        android:id="@+id/dontForget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DON'T \nFORGET"
+        android:textAlignment="center"
+        android:textSize="100dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/rememberMe" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
